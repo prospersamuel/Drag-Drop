@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drag and Drop</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="container">
-    <div id="left">
-        <div class="list" draggable="true">List Item 1</div>
-        <div class="list" draggable="true">List Item 2</div>
-        <div class="list" draggable="true">List Item 3</div>
-        <div class="list" draggable="true">List Item 4</div>
+    <div class="container">
+        <h1>BUILD YOUR FIRST  <br>DRAG AND DROP <br>WEBSITE</h1>
+        <div id="left">
+            <div class=" list nav" draggable="true">
+                <div contenteditable="true">Logo</div>
+                <div class="navs">
+                    <ul>
+                        <li contenteditable="true">HOME</li>
+                        <li contenteditable="true">ABOUT US</li>
+                        <li contenteditable="true">REVIEW</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="list hero" draggable="true" contenteditable="true">HERO</div>
+                
+                <div class="list items" draggable="true">
+                    <div class="list" contenteditable="true">ITEM 1</div>
+                    <div class="list" contenteditable="true">ITEM 2</div>
+                    <div class="list" contenteditable="true">ITEM 3</div>
+                    <div class="list" contenteditable="true">ITEM 4</div>
+                </div>
+                <div class=" list footer" draggable="true" contenteditable="true">FOOTER</div>
+
+        </div>
+
+
+        <div id="right">
+        </div>
 
     </div>
-    
-    
-    <div id="right">
-    </div>
 
-</div>
-    
 
 
 
 
     <script src="drag.js"></script>
 </body>
+
 </html>
